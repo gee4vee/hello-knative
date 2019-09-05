@@ -9,5 +9,6 @@ spec:
     spec:
       containers:
         - image: helloknative
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
